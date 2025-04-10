@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- Remotes -->
+  <remote name="github"
+          fetch="https://github.com"
+          clone-depth="1" />
+
+  <remote name="objectfigure"
+          fetch="https://github.com/techyguyperplexable" />
   
 <!-- Samsung Galaxy Tab S6 Lite 2020 Device Trees -->
   <project name="linux4-bringup-priv/android_device_samsung_gta4xl-common" path="device/samsung/gta4xl-common" remote="github" revision="lineage-22.1" />
-  <project name="linux4-bringup-priv/android_device_samsung_gta4xlwifi" path="device/samsung/gta4xlwifi" remote="github" revision="lineage-22.1" />
+  <project name="android_device_samsung_gta4xlwifi" path="device/samsung/gta4xlwifi" remote="objectfigure" revision="orion-15" />
   <project name="linux4-bringup-priv/android_vendor_samsung_gta4xl-common" path="vendor/samsung/gta4xl-common" remote="github" revision="lineage-22.1" />
   <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-22.1" />
   <project name="linux4-bringup-priv/android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" remote="github" revision="lineage-22.1" />
