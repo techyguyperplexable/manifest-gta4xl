@@ -4,7 +4,7 @@
 
   <!-- samson device trees -->
   <project path="device/samsung/gta4xl" name="device_samsung_gta4xl" remote="linux4"/>
-  <project path="device/samsung/gta4xlwifi" name="device_samsung_gta4xlwifi" remote="objecfigure"/>
+  <project path="device/samsung/gta4xlwifi" name="device_samsung_gta4xlwifi" remote="objectfigure"/>
   <project path="device/samsung/gta4xl-common" name="device_samsung_gta4xl-common" remote="linux4"/>
 
   <!-- samson kernel tree -->
