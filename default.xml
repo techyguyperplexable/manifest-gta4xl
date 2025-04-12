@@ -21,6 +21,9 @@
   <project name="android_device_samsung_gta4xlwifi" path="device/samsung/gta4xlwifi" remote="objectfigure" revision="orion-15" />
   <project name="android_vendor_samsung_gta4xl-common" path="vendor/samsung/gta4xl-common" remote="linux4" revision="lineage-22.1" />
   <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="los" />
+  <project path="vendor/samsung/gta4xl" name="android_vendor_samsung_gta4xl" remote="linux4"/>
+  <project path="vendor/samsung/gta4xlwifi" name="android_vendor_samsung_gta4xlwifi" remote="linux4"/>
+  <project path="vendor/samsung/gta4xl-common" name="android_vendor_samsung_gta4xl-common" remote="linux4"/>
   <project name="android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" remote="linux4" revision="lineage-22.1" />
   <project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" remote="linux4" revision="lineage-22.1" />
   <project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" remote="linux4" revision="lineage-22.1" />
