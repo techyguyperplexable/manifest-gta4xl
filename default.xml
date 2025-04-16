@@ -1,10 +1,10 @@
 <manifest>
   <remote name="linux4" fetch="https://github.com/linux4-bringup-priv" revision="lineage-22.1"/>
-  <remote name="objectfigure" fetch="https://github.com/techyguyperplexable" revision="evox-qpr2"/>
+  <remote name="objectfigure" fetch="https://github.com/techyguyperplexable" revision="orion-15"/>
 
   <!-- samson device trees -->
   <project path="device/samsung/gta4xl" name="android_device_samsung_gta4xl" remote="objectfigure"/>
-  <project path="device/samsung/gta4xlwifi" name="android_device_samsung_gta4xlwifi" remote="linux4"/>
+  <project path="device/samsung/gta4xlwifi" name="android_device_samsung_gta4xlwifi" remote="objectfigure"/>
   <project path="device/samsung/gta4xl-common" name="android_device_samsung_gta4xl-common" remote="linux4"/>
 
   <!-- samson kernel tree -->
