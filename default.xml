@@ -4,6 +4,6 @@
 <!-- Samsung Galaxy Tab S6 Lite 2020 Device Trees -->
 <remote name="linux4" fetch="https://gitlab.com/tukiteam1" revision="fox_12.1"/>
 
-<project path="device/samsung/gta4xl" name="ofrp_device_samsung_universal9611" remote="linux4"/>  
+<project path="device/samsung/universal9611" name="ofrp_device_samsung_universal9611" remote="linux4"/>  
 
 </manifest>
